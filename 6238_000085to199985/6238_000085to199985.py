@@ -54,8 +54,6 @@ while i <= range:
                     error_mobile_numbers.append(mobile_number)
                     browser.get(tele_link + "captcha or unknown error at " + mobile_number + "." + " heading = " + target + " #error ")
                 time.sleep(3)
-                browser.delete_all_cookies()
-                browser.quit()
                 if c == 0:
                     l = l + 1
             if target == string1:
