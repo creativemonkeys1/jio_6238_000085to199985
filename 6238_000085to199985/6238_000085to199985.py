@@ -49,7 +49,7 @@ while i <= range:
                     browser.get(tele_link + mobile_number + " matched" + " #done ")
                     break
                 elif target == string2:
-                    browser.get(tele_link + mobile_number + " not matched")
+                    browser.get(tele_link + mobile_number + " not matched " + " #notdone ")
                 else:
                     error_mobile_numbers.append(mobile_number)
                     browser.get(tele_link + "captcha or unknown error at " + mobile_number + "." + " heading = " + target + " #error ")
