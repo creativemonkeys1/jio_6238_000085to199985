@@ -54,8 +54,7 @@ while i <= range:
                     error_mobile_numbers.append(mobile_number)
                     browser.get(tele_link + "captcha or unknown error at " + mobile_number + "." + " heading = " + target + " #error ")
                 time.sleep(3)
-                if c == 0:
-                    l = l + 1
+                l = l + 1
             if target == string1:
                 break
             k = k+1
